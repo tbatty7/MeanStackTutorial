@@ -26,12 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Use npm run dev to start the server through the cli
+Go to the backend directory and use 'npm run dev' to start the Express server through the cli
 
 To create mongoDB database, type mongo
 Then type: 
 use meanstack
-This will create the database instance needed for this project
-Then type:
-db.issues.insert({"title": "first", "responsible": "yes", "description": "uno", "severity": "severe", "status": "Open"})
+This will create a database instance called meanstack needed for this project
 
