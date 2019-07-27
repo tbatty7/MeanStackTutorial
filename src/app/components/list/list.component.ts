@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from  '@angular/router';
 import { MatTableDataSource } from '@angular/material';
 import { IssueService } from '../../issue.service';
 import { Issue } from '../../issue.model';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-list',

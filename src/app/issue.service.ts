@@ -15,7 +15,7 @@ export class IssueService {
   }
 
   getIssueById(id) {
-    return this.http.get(`${this.uri}/issues/{$id}`);
+    return this.http.get(`${this.uri}/issues/${id}`);
   }
 
   addIssue(title, responsible, description, severity) {
@@ -28,7 +28,7 @@ export class IssueService {
     return this.http.post(`${this.uri}/issues/add`, issue);
   }
 
-  updateIssue(id, title, responsible, description, severity) {
+  updateIssue(id, title, responsible, description, severity, status) {
     const issue = {
       title,
       responsible,

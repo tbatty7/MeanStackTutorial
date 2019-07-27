@@ -18,7 +18,6 @@ connection.once('open', () => {
   console.log('MongoDB database connection established successfully');
 });
 
-//first endpoint
 router.route('/issues').get((req, res) => {
   Issue.find((err, issues) => {
     if (err)

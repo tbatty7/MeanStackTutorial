@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule} from '@angular/forms';
 
+// tslint:disable-next-line:max-line-length
 import { MatToolbarModule, MatFormFieldModule, MatInputModule, MatOptionModule, MatSelectModule, MatIconModule, MatTableModule, MatButtonModule, MatCardModule, MatDividerModule, MatSnackBarModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -45,7 +46,7 @@ const routes: Routes = [
     MatDividerModule,
     MatSnackBarModule
   ],
-  providers: [ IssueService ],
+  providers: [IssueService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
